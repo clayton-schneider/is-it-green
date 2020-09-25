@@ -24,8 +24,9 @@ function addInfo(info) {
   const resultDiv = document.getElementById('results');
   if (!info) {
     const errorText = `<h2>Showing results for ${info.url}</h2>
-      <h2>Sorry that websit could not be analyzed. Please check spelling (should be formatted as www.example.com).</h2>`;
+      <h2>Sorry that website could not be analyzed. Please check spelling (should be formatted as www.example.com).</h2>`;
     resultDiv.innerHTML = errorText;
+    resultDiv.classList.add('results');
   } else {
     const resultTemplate = `
     <h2>Showing results for ${info.url}</h2>

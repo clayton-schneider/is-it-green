@@ -24,6 +24,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav {
@@ -69,15 +70,19 @@ body {
 }
 
 .results {
-  margin-top: 100px;
+  margin-top: 75px;
   padding: 20px;
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 4px;
-  background-color: grey;
+  background-color: #222;
+}
+
+.results h2 {
+  margin-top: 10px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   font-weight: normal;
 }
